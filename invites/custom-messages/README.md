@@ -6,11 +6,11 @@ description: You can customise the join and leave messages with a number of para
 
 You can set a custom join or leave message by setting the config:
 
-`!config joinMessage This is your custom join message! It will be posted every time someone joins your server.`
+`!config joinMessage hi hello HILLO NEW DETROITIAN.`
 
 or 
 
-`!config leaveMessage This is your custom leave message! It will be posted every time someone leaves your server.`
+`!config leaveMessage bye goodbye GOODBYEBYE OLD DETROITIAN.`
 
 A message like that obviously doesn't make sense. You should personalise it with information about the new member, inviter or the server. Please see the list below for all available placeholders.
 
@@ -20,7 +20,7 @@ So if we want the message to say
 
 we can easily do that by replacing all the names and the number with placeholders:
 
-`Welcome {memberMention}! You were invited by {inviterName}, who now has {numInvites} invites! Have fun on our server!`
+`Welcome {memberMention}! now go do something in Detroit`
 
 So you can now do `!config joinMessage <message from above>` to set the message. Our bot will automatically replace the placeholders every time someone joins.
 
